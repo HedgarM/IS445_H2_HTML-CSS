@@ -4,13 +4,17 @@ body {
 
 p {
   font-family: 'Calibri';
+  text-align: center;
 }
 
 h1,
 h2 {
   font-family: 'Calibri';
-  color: red
+  color: red;
+  text-align: center;
 }
+
+h3{text-align: center}
 
 a:link {
   color: red;
