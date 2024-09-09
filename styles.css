@@ -1,5 +1,6 @@
 body {
   font-family: 'Calibri';
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 p {
@@ -34,11 +35,20 @@ input[type="submit"]:active {
 
 ul {
   list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
 }
 
 ol {
   list-style-type: lower-roman;
+  list-style-position: inside;
+  text-align: center;
 }
+
+table,th,td{
+  border: 1px solid;
+}
+
 
 table tr:nth-child(even) td {
   background-color: lightgray;
@@ -48,9 +58,14 @@ tr:hover {
   background-color: lightblue;
 }
 
-.center {
+.centerimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
+}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
 }
